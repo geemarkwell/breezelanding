@@ -69,8 +69,7 @@ export default function Home() {
           <Typography className="max-w-2xl" variant="p">
             Imagine a world where your favorite outfits are
             just a few taps away. Breeze revolutionizes the
-            way you shop for clothes. No more endless
-            scrolling or waiting for packages to arrive.
+            way you shop for clothes. No more waiting in line or weeks for packages to arrive.
           </Typography>
           {/* <Image
             width={1024}

@@ -13,15 +13,13 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Information you need during on-call emergencies
+        Your Personal On-Demand Store
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Quickly link new on-call tickets to similar past
-          incidents and their solutions. All directly in
-          Slack the moment an incident happens.
+        Need something now? Breez delivers it, fast. No more endless browsing or waiting in line.
         </Typography>
         <Link
-          href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+          href="https://geemarkwell.com"
           target="_blank"
         >
           <Button size="tiny" variant="ghost">
@@ -43,29 +41,33 @@ export default function Home() {
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Timer size={24} />}
-              headline="Fix emergencies fast"
-              description="Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks"
+              headline="Instant Delivery"
+              description="Tired of waiting for online orders to arrive? Breez delivers your essentials right to your doorstep, instantly."
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
-              headline="Universally compatible"
-              description="Works with PagerDuty, Jira, or custom Slack alerts—Pandem integrates with any system"
+              headline="Curated Selection"
+              description="Our handpicked selection of products ensures you find exactly what you need, from electronics to fashion."
             />
             <Feature
               icon={<Workflow size={24} />}
-              headline="Secure for your org"
-              description="We keep your data safe by taking top security measures."
+              headline="Local Love"
+              description="Support your local businesses while enjoying the convenience of on-demand delivery. Breez partners with local stores to bring you the best of your community.
+
+
+
+
+
+"
             />
           </div>
         </div>
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Instant setup, no custom code
+          Shop Smarter, Not Harder.
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Quickly link new on-call tickets to similar past
-            incidents and their solutions. All directly in
-            Slack the moment an incident happens.
+          Imagine a world where your favorite outfits are just a few taps away. Breez revolutionizes the way you shop for clothes. No more endless scrolling or waiting for packages to arrive.
           </Typography>
           <Image
             width={1024}
@@ -80,7 +82,7 @@ export default function Home() {
           </Typography>
           <div>Book a demo, or hop on a call</div>
           <Link
-            href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+            href="https://geemarkwell.com"
             target="_blank"
           >
             <Button size="tiny" variant="ghost">

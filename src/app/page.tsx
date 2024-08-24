@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button'
 import Typography from '@/components/ui/typography'
-import Image from 'next/image'
 import Feature from './feature'
 import { ArrowUpDown, Timer, Workflow } from 'lucide-react'
 import Link from 'next/link'

@@ -42,7 +42,7 @@ export default function Home() {
             <Feature
               icon={<Timer size={24} />}
               headline="Instant Delivery"
-              description="Tired of waiting for online orders to arrive? Breez delivers your essentials right to your doorstep, instantly."
+              description="Tired of waiting for online orders to arrive? Breeze delivers your essentials right to your doorstep, instantly."
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
@@ -52,7 +52,7 @@ export default function Home() {
             <Feature
               icon={<Workflow size={24} />}
               headline="Local Love"
-              description="Support your local businesses while enjoying the convenience of on-demand delivery. Breez partners with local stores to bring you the best of your community.
+              description="Support your local businesses while enjoying the convenience of on-demand delivery. Breeze partners with local stores to bring you the best of your community.
 
 
 
@@ -68,7 +68,7 @@ export default function Home() {
           </Typography>
           <Typography className="max-w-2xl" variant="p">
             Imagine a world where your favorite outfits are
-            just a few taps away. Breez revolutionizes the
+            just a few taps away. Breeze revolutionizes the
             way you shop for clothes. No more endless
             scrolling or waiting for packages to arrive.
           </Typography>

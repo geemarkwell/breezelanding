@@ -27,12 +27,12 @@ export default function Home() {
             {`Get Started`}
           </Button>
         </Link>
-        <Image
+        {/* <Image
           width={1024}
           height={632}
           alt="Pandem.dev hero image"
           src="/hero1.png"
-        />
+        /> */}
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
@@ -73,12 +73,12 @@ export default function Home() {
             way you shop for clothes. No more endless
             scrolling or waiting for packages to arrive.
           </Typography>
-          <Image
+          {/* <Image
             width={1024}
             height={632}
             alt="Pandem.dev hero image"
             src="/hero1.png"
-          />
+          /> */}
         </div>
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">

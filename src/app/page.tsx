@@ -41,13 +41,13 @@ export default function Home() {
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Timer size={24} />}
-              headline="Instant Delivery"
-              description="Tired of waiting for online orders to arrive? Breeze delivers your essentials right to your doorstep, instantly."
+              headline="Your Favorite Brands, Delivered Instantly"
+              description="Tired of waiting weeks for online orders to arrive? Breez brings the latest styles and must-have essentials from your favorite brands right to your doorstep, within hours and minutes."
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
-              headline="Curated Selection"
-              description="Our handpicked selection of products ensures you find exactly what you need, from electronics to fashion."
+              headline="Faster Fashion, Lower Prices"
+              description="Enjoy the convenience of on-demand fashion delivery without the added shipping costs. Breez brings your favorite styles right to your doorstep, quickly and affordably."
             />
             <Feature
               icon={<Workflow size={24} />}

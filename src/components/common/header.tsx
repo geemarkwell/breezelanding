@@ -21,7 +21,7 @@ export function Header({ className }: SidebarProps) {
   const items = [
     {
       href: 'https://geemarkwell.com',
-      title: 'Join breez',
+      title: 'Join breeze',
       openInNewTab: true
     }
     // { href: '#pricing', title: 'Features' },
@@ -42,16 +42,10 @@ export function Header({ className }: SidebarProps) {
 
   const getAuthButtons = () => (
     <div className="flex gap-3 items-center">
-      <Link
-        href="https://geemarkwell.com"
-        target="_blank"
-      >
+      <Link href="https://geemarkwell.com" target="_blank">
         <Typography variant="p">Login</Typography>
       </Link>
-      <Link
-        href="https://geemarkwell.com"
-        target="_blank"
-      >
+      <Link href="https://geemarkwell.com" target="_blank">
         <Button size="tiny" color="ghost">
           <Typography variant="p" className="text-black">
             Sign Up

@@ -13,10 +13,11 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-        Your Personal On-Demand Store
+          Your Personal On-Demand Store
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-        Need something now? Breez delivers it, fast. No more endless browsing or waiting in line.
+          Need something now? Breeze delivers it, fast. No
+          more endless browsing or waiting in line.
         </Typography>
         <Link
           href="https://geemarkwell.com"
@@ -64,10 +65,13 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-          Shop Smarter, Not Harder.
+            Shop Smarter, Not Harder.
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-          Imagine a world where your favorite outfits are just a few taps away. Breez revolutionizes the way you shop for clothes. No more endless scrolling or waiting for packages to arrive.
+            Imagine a world where your favorite outfits are
+            just a few taps away. Breez revolutionizes the
+            way you shop for clothes. No more endless
+            scrolling or waiting for packages to arrive.
           </Typography>
           <Image
             width={1024}
@@ -86,7 +90,7 @@ export default function Home() {
             target="_blank"
           >
             <Button size="tiny" variant="ghost">
-              {`Book now`}
+              {`Coming Soon`}
             </Button>
           </Link>
         </div>

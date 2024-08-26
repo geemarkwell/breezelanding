@@ -1,8 +1,7 @@
-import { Button } from '@/components/ui/button'
 import Typography from '@/components/ui/typography'
 import Feature from './feature'
 import { ArrowUpDown, Timer, Workflow } from 'lucide-react'
-import Link from 'next/link'
+import Form from '@/components/email/form';
 
 export default function Home() {
   return (
@@ -10,22 +9,18 @@ export default function Home() {
       className="flex flex-col h-full md:py-36 md:px-32 pt-11 pb-24 px-8
         w-full items-center text-center gap-12"
     >
+      {/* <Waitlist firstName={''}/> */}
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
           Your Personal On-Demand Store
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Need something now? Breeze delivers it, fast. No
-          more endless browsing or waiting in line.
+          Need something now? Breeze delivers it, fast. No more extra <span className="text-green-500">shipping</span> costs, long lines or <span className="text-green-500">waiting weeks</span> for packages to arrive.
         </Typography>
-        <Link
-          href="https://geemarkwell.com"
-          target="_blank"
-        >
-          <Button size="tiny" variant="ghost">
+          {/* <Button size="tiny" variant="ghost">
             {`Get Started`}
-          </Button>
-        </Link>
+          </Button> */}
+        <Form/>
         {/* <Image
           width={1024}
           height={632}
@@ -46,8 +41,8 @@ export default function Home() {
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
-              headline="Faster Fashion, Lower Prices"
-              description="Enjoy the convenience of on-demand fashion delivery without the added shipping costs. Breez brings your favorite styles right to your doorstep, quickly and affordably."
+              headline="Lower Prices"
+              description="Enjoy the convenience of same day fashion delivery without the added shipping costs. Why pay a $8.00 next day delivery fee when you can have it TODAY for $0."
             />
             <Feature
               icon={<Workflow size={24} />}
@@ -64,12 +59,10 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Shop Smarter, Not Harder.
+            Pay Less, Get More.
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Imagine a world where your favorite outfits are
-            just a few taps away. Breeze revolutionizes the
-            way you shop for clothes. No more waiting in line or weeks for packages to arrive.
+            Why pay more to have it tommorow, when you can pay <span className="text-green-500">less</span> and have it <span className="text-green-500">today</span>.
           </Typography>
           {/* <Image
             width={1024}
@@ -80,17 +73,13 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Get in touch
+            Pre-Launch Sign Up
           </Typography>
-          <div>Book a demo, or hop on a call</div>
-          <Link
-            href="https://geemarkwell.com"
-            target="_blank"
-          >
-            <Button size="tiny" variant="ghost">
+          <div> Be the first to know when Breeze is available. </div>
+            {/* <Button size="tiny" variant="ghost">
               {`Coming Soon`}
-            </Button>
-          </Link>
+            </Button> */}
+            <Form/>
         </div>
       </div>
     </div>

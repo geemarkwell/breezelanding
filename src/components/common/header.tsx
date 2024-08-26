@@ -1,7 +1,6 @@
 'use client'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
 import { usePathname } from 'next/navigation'
 import Typography from '@/components/ui/typography'
 import {
@@ -20,8 +19,8 @@ export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
     {
-      href: 'https://geemarkwell.com',
-      title: 'Join breeze',
+      href: '',
+      title: 'Breeze',
       openInNewTab: true
     }
     // { href: '#pricing', title: 'Features' },
@@ -42,16 +41,7 @@ export function Header({ className }: SidebarProps) {
 
   const getAuthButtons = () => (
     <div className="flex gap-3 items-center">
-      <Link href="https://geemarkwell.com" target="_blank">
-        <Typography variant="p">Login</Typography>
-      </Link>
-      <Link href="https://geemarkwell.com" target="_blank">
-        <Button size="tiny" color="ghost">
-          <Typography variant="p" className="text-black">
-            Sign Up
-          </Typography>
-        </Button>
-      </Link>
+
     </div>
   )
 

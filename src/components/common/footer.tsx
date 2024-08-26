@@ -24,24 +24,18 @@ export function Footer() {
             className="pointer block w-fit flex-1"
           >
             <Typography variant="p" className="w-max">
-              Book a demo
+              Donate 💜
             </Typography>
           </Link>
           <Link
             href="/terms-of-service"
             className="pointer block w-fit flex-1"
           >
-            <Typography variant="p" className="w-max">
-              Terms of service
-            </Typography>
           </Link>
           <Link
             href="/privacy-policy"
             className="pointer block w-fit"
           >
-            <Typography variant="p">
-              Privacy Policy
-            </Typography>
           </Link>
         </div>
       </div>

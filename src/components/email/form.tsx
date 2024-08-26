@@ -61,7 +61,7 @@ const Form = () => {
                   className="w-72 h-12 rounded-md block flex-1 bg-transparent py-4 pl-4
                     text-white placeholder:text-gray-400 focus:none sm:text-md
                     sm:leading-6 text-lg"
-                  placeholder="Enter your e-mail"
+                  placeholder="yourname@example.com"
                   disabled={joined || loading} // Disable input if joined or loading
                 />
               </div>

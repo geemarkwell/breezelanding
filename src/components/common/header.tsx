@@ -50,8 +50,7 @@ export function Header({ className }: SidebarProps) {
       <>
         {items.map((item) => {
           const selected =
-            pathname === item.href ||
-            pathname.includes(item.href)
+            pathname === item.href
           return (
             <Link
               href={item.href}

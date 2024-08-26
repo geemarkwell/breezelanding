@@ -30,13 +30,11 @@ export function Footer() {
           <Link
             href="/terms-of-service"
             className="pointer block w-fit flex-1"
-          >
-          </Link>
+          ></Link>
           <Link
             href="/privacy-policy"
             className="pointer block w-fit"
-          >
-          </Link>
+          ></Link>
         </div>
       </div>
     </footer>

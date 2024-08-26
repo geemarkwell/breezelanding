@@ -40,17 +40,14 @@ export function Header({ className }: SidebarProps) {
   )
 
   const getAuthButtons = () => (
-    <div className="flex gap-3 items-center">
-
-    </div>
+    <div className="flex gap-3 items-center"></div>
   )
 
   const getHeaderItems = () => {
     return (
       <>
         {items.map((item) => {
-          const selected =
-            pathname === item.href
+          const selected = pathname === item.href
           return (
             <Link
               href={item.href}

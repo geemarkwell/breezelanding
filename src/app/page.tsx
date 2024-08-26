@@ -1,7 +1,7 @@
 import Typography from '@/components/ui/typography'
 import Feature from './feature'
 import { ArrowUpDown, Timer, Workflow } from 'lucide-react'
-import Form from '@/components/email/form';
+import Form from '@/components/email/form'
 
 export default function Home() {
   return (
@@ -15,12 +15,19 @@ export default function Home() {
           Your Personal On-Demand Store
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Need something now? Breeze delivers it, fast. No more extra <span className="text-green-500">shipping</span> costs, long lines or <span className="text-green-500">waiting weeks</span> for packages to arrive.
+          Need something now? Breeze delivers it, fast. No
+          more extra{' '}
+          <span className="text-green-500">shipping</span>{' '}
+          costs, long lines or{' '}
+          <span className="text-green-500">
+            waiting weeks
+          </span>{' '}
+          for packages to arrive.
         </Typography>
-          {/* <Button size="tiny" variant="ghost">
+        {/* <Button size="tiny" variant="ghost">
             {`Get Started`}
           </Button> */}
-        <Form/>
+        <Form />
         {/* <Image
           width={1024}
           height={632}
@@ -62,7 +69,10 @@ export default function Home() {
             Pay Less, Get More.
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Why pay more to have it tommorow, when you can pay <span className="text-green-500">less</span> and have it <span className="text-green-500">today</span>.
+            Why pay more to have it tommorow, when you can
+            pay <span className="text-green-500">less</span>{' '}
+            and have it{' '}
+            <span className="text-green-500">today</span>.
           </Typography>
           {/* <Image
             width={1024}
@@ -75,11 +85,14 @@ export default function Home() {
           <Typography className="max-w-2xl" variant="h1">
             Pre-Launch Sign Up
           </Typography>
-          <div> Be the first to know when Breeze is available. </div>
-            {/* <Button size="tiny" variant="ghost">
+          <div>
+            {' '}
+            Be the first to know when Breeze is available.{' '}
+          </div>
+          {/* <Button size="tiny" variant="ghost">
               {`Coming Soon`}
             </Button> */}
-            <Form/>
+          <Form />
         </div>
       </div>
     </div>

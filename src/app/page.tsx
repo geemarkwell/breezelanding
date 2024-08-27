@@ -49,7 +49,7 @@ export default function Home() {
             <Feature
               icon={<ArrowUpDown size={24} />}
               headline="Lower Prices"
-              description="Enjoy the convenience of same day fashion delivery without the added shipping costs. Why pay a $8.00 next day delivery fee when you can have it TODAY for $0."
+              description="Enjoy the convenience of same day fashion delivery without the added shipping costs. Why pay a extra $8.00 - $20.00 for next day delivery when you can have it TODAY for $0."
             />
             <Feature
               icon={<Workflow size={24} />}

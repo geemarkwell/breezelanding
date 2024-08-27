@@ -19,7 +19,7 @@ export function Footer() {
         </div>
         <div className="flex max-w-fit items-center gap-x-4">
           <Link
-            href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+            href=""
             target="_blank"
             className="pointer block w-fit flex-1"
           >

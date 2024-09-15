@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     'No more endless scrolling or waiting for packages to arrive',
   openGraph: {
-    images: '/opengraph-image.png'
+    images: ''
   },
   twitter: {
     card: 'summary_large_image',

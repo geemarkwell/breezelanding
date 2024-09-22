@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       'Breeze - No more endless scrolling or waiting for packages to arrive',
     description:
       'No more endless scrolling or waiting for packages to arrive',
-    images: ['https://i.imgur.com/FoT7O98.jpeg']
+    images: '/home.png'
   }
 }
 

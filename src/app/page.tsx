@@ -44,7 +44,7 @@ export default function Home() {
             <Feature
               icon={<Timer size={24} />}
               headline="Your Favorite Brands, Delivered Instantly"
-              description="Tired of waiting weeks for online orders to arrive? Breez brings the latest styles and must-have essentials from your favorite brands right to your doorstep, within hours and minutes."
+              description="Tired of waiting weeks for online orders to arrive? Breeze brings the latest styles and must-have essentials from your favorite brands right to your doorstep, within hours and minutes."
             />
             <Feature
               icon={<ArrowUpDown size={24} />}

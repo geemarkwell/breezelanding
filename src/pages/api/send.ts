@@ -9,7 +9,7 @@ export default async (
   res: NextApiResponse
 ) => {
   const { data, error } = await resend.emails.send({
-    from: 'Acme <onboarding@resend.dev>',
+    from: '<onboarding@breezenow.io>',
     to: ['delivered@resend.dev'],
     subject: 'Hello world',
     react: Waitlist({ firstName: 'John' })

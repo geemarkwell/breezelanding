@@ -11,7 +11,7 @@ export async function POST(
   const { email } = await request.json()
 
   const { error } = await resend.emails.send({
-    from: 'Breeze <onboarding@resend.dev>',
+    from: 'Breeze <onboarding@breezenow.io>',
     to: [email],
     subject: 'Thank You',
     html: render(NetlifyWelcomeEmail({}))
